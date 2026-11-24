@@ -12,6 +12,7 @@ This project covers two interconnected IoT devices:
 - **Smart Power Monitoring System (SPMS)** — Monitors 230V power presence at field-deployed MSAN equipment and streams telemetry to a cloud dashboard.
 
 ### Copper Guard
+<img width="1280" height="960" alt="device" src="https://github.com/user-attachments/assets/62542ed0-5038-48a7-a29f-53834a2ad9a7" />
 
 - **MCU:** ESP-12F (ESP8266)
 - **GSM Module:** SIM800C (SMS alerts on line disconnection)
@@ -23,6 +24,8 @@ This project covers two interconnected IoT devices:
 Key fixes included correcting ESP-12F boot mode pin configuration and adding a boot-delay capacitor on the EN pin to prevent resets caused by SIM800C inrush current.
 
 ### Smart Power Monitoring System (SPMS)
+<img width="1000" height="750" alt="11" src="https://github.com/user-attachments/assets/18935dc3-7a80-4716-b14b-d7008ebf5b42" />
+
 
 - **MCU:** ESP32-S (4G IoT board)
 - **Modem:** A7680C (LTE)
